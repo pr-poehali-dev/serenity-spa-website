@@ -73,6 +73,10 @@ export default function Index() {
               </button>
             ))}
           </nav>
+          <a href="tel:+79883651465" className="hidden lg:flex items-center gap-2 text-serenity-darkest hover:text-serenity-dark transition-colors">
+            <Icon name="Phone" size={15} />
+            <span className="text-sm tracking-wide">+7 (988) 365-14-65</span>
+          </a>
           <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden text-serenity-darkest">
             <Icon name={menuOpen ? 'X' : 'Menu'} size={26} />
           </button>
@@ -108,10 +112,7 @@ export default function Index() {
               <button onClick={() => scrollTo('services')} className="px-8 py-4 bg-serenity-darkest text-serenity-cream rounded-full text-sm tracking-wide hover:bg-serenity-dark transition-colors">
                 Выбрать программу
               </button>
-              <a href="tel:+79883651465" className="flex items-center gap-2 text-serenity-darkest hover:text-serenity-dark transition-colors">
-                <Icon name="Phone" size={16} />
-                <span className="text-sm tracking-wide">+7 (988) 365-14-65</span>
-              </a>
+
             </div>
           </div>
 
