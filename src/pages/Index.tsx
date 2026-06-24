@@ -98,11 +98,11 @@ export default function Index() {
               <span className="w-10 h-px bg-serenity-dark" /> Краснодар
             </p>
             <h1 className="font-serif text-5xl md:text-7xl leading-[0.95] text-serenity-darkest mb-8 text-balance">
-              Пространство тишины
-              <span className="block italic text-serenity-dark">и внутренней гармонии</span>
+              Мы вернём вас
+              <span className="block italic text-serenity-dark">в тишину, которой так не хватает</span>
             </h1>
             <p className="text-lg text-serenity-dark/80 max-w-md mb-10 leading-relaxed">
-              Здесь суета остаётся за порогом, а каждая минута посвящена вашему покою. Мы вернём вас в тишину, которой так не хватает.
+              Здесь суета остаётся за порогом. Проведи время наедине с собой.
             </p>
             <div className="flex flex-wrap gap-4">
               <button onClick={() => scrollTo('services')} className="px-8 py-4 bg-serenity-darkest text-serenity-cream rounded-full text-sm tracking-wide hover:bg-serenity-dark transition-colors">
