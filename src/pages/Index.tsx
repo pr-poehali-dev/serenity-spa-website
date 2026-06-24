@@ -102,15 +102,16 @@ export default function Index() {
               <span className="block italic text-serenity-dark">в тишину, которой так не хватает</span>
             </h1>
             <p className="text-lg text-serenity-dark/80 max-w-md mb-10 leading-relaxed">
-              Здесь суета остаётся за порогом. Проведи время наедине с собой.
+              Здесь суета остаётся за порогом.<br />Проведи время наедине с собой.
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap items-center gap-4">
               <button onClick={() => scrollTo('services')} className="px-8 py-4 bg-serenity-darkest text-serenity-cream rounded-full text-sm tracking-wide hover:bg-serenity-dark transition-colors">
                 Выбрать программу
               </button>
-              <button onClick={() => scrollTo('about')} className="px-8 py-4 border border-serenity-darkest/30 text-serenity-darkest rounded-full text-sm tracking-wide hover:bg-serenity-darkest hover:text-serenity-cream transition-colors">
-                О центре
-              </button>
+              <a href="tel:+79883651465" className="flex items-center gap-2 text-serenity-darkest hover:text-serenity-dark transition-colors">
+                <Icon name="Phone" size={16} />
+                <span className="text-sm tracking-wide">+7 (988) 365-14-65</span>
+              </a>
             </div>
           </div>
 
