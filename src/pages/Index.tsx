@@ -120,10 +120,7 @@ export default function Index() {
               <img src={HERO_IMG} alt="Расслабляющий массаж головы в СПА-центре Безмятежность" className="w-full h-[60vh] lg:h-[78vh] object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-serenity-darkest/30 to-transparent" />
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-serenity-cream rounded-2xl px-6 py-4 shadow-xl border border-serenity-darkest/10">
-              <p className="font-serif text-3xl text-serenity-darkest">3 «Т»</p>
-              <p className="text-xs tracking-wide text-serenity-dark/70">темно · тепло · тихо</p>
-            </div>
+
           </div>
         </div>
       </section>
